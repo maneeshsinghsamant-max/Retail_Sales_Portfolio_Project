@@ -92,7 +92,9 @@ Created Pivot Tables
 - Best Selling Category
 
 
-## Excel Dashboard
+## Excel Dashboard Preview
+
+![Excel Dashboard](Images/Excel_Dashboard.png)
 
 ---
 
@@ -111,6 +113,7 @@ Statistical analysis was performed to understand the distribution and variation 
 - Quartiles
 - IQR
 
+![Statistical Preview](Images/Statistics.png)
 
 ## Hypothesis Testing
 - T-Test
@@ -203,7 +206,10 @@ Created:
     - Heatmap
     - Pairplot
     - Corelation Matrix
- 
+
+**Python EDA Preview**
+ ![EDA Preview](Images/python_eda.png)
+
 ---
 
 # Power BI Analytics
@@ -238,7 +244,7 @@ Created:
     - Drill-through
 
 **Power BI Dashboard**
-
+![Power-BI Dashboard](Images/Power_Bi_dashboard.png)
 
 # Tableau Analytics 
 
@@ -256,6 +262,7 @@ A tableau dashboard was developed to provide interactive sales and customer insi
 
 **Tableau Dashboard**
 
+![Tableau Dashboard](Images/Tableau_Dashboard.png)
 
 ---
 
@@ -289,6 +296,9 @@ Predict the Total Amount using customer and transaction features.
     - RMSE
     - R² Score
 
+  
+![ML_P1 View](Images/ML-Project-1.png)
+
 ---
 
 
@@ -314,6 +324,15 @@ Classify customers into different spending categories.
     - Recall
     - F1 Score
     - Confusion Matrix
+
+**Model Comparision**
+
+![ML_P2 View](Images/ML-Project-2.png)
+
+
+**Confusion Matrix**
+
+![ML_P2.1 View](Images/ML-Project-2.1.png)
 
 ---
 
@@ -383,8 +402,7 @@ Through this project, I demonstrated practical knowledge of:
 
 **Maneesh Singh Samant**
    - Aspiring Data Analyst
-   - Skills:
-   - Excel | SQL | Python | Statistics | Power BI | Tableau | Machine Learning
+   - **Skills:**  Excel | SQL | Python | Statistics | Power BI | Tableau | Machine Learning
 
 ---
 
