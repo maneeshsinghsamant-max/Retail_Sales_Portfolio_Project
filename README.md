@@ -1,4 +1,6 @@
-# 📊 Retail Sales Analytics Project
+# Retail Sales Analytics Project
+
+![Cover](Images/Cover_Photo.png)
 
 ## 📌 Project Overview
 
