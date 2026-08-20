@@ -4,7 +4,7 @@
 
 ## 📌 Project Overview
 
-This is an end-to-end Retail Sales Analytics project using Excel, Statistics, SQL, Python, Power BI, Tableau and Machine Learning created as part of my Data Analyst portfolio.
+This is an end-to-end Retail Sales Analytics project using Excel, Statistics, SQL, Python, Power BI, Tableau and Machine Learning, created as part of my Data Analyst portfolio.
 The project analyzes retail transaction data to understand sales performance, customer behavior, product performance, and customer spending patterns.
 
 ---
@@ -13,7 +13,7 @@ The project analyzes retail transaction data to understand sales performance, cu
 
 The objectives of this project are:
 
-- Analyze all retail sales performance
+- Analyze overall retail sales performance
 - Identify monthly sales trends
 - Analyze product and category performance
 - Understand customer purchasing behavior
@@ -43,6 +43,10 @@ The objectives of this project are:
 
 **Retail-Sales-Analytics**
 
+- Data
+	- retail_sales_raw.csv
+ 	- retail_sales_cleaned.csv
+  	- retail_sales_feature_engineered.csv
 - Excel
 - Statistics
 - SQL
@@ -56,7 +60,7 @@ The objectives of this project are:
 
 # Excel Analysis
 
-The Excel section focuses on data cleaning, analyzing, visualization, and dashboard 
+The Excel section focuses on data cleaning, analyzing, visualization, and dashboard creation. 
 
 ## Data Cleaning
 
@@ -113,7 +117,7 @@ Statistical analysis was performed to understand the distribution and variation 
 - Standard Deviation
 - Range
 - Quartiles
-- IQR
+- Interquartile Range (IQR)
 
 ![Statistical Preview](Images/Statistics.png)
 
@@ -124,7 +128,7 @@ Statistical analysis was performed to understand the distribution and variation 
 
 # SQL Analysis
 
-My SQL was used to perform business oriented analysis on the retail sales dataset.
+My SQL was used to perform business-oriented analysis on the retail sales dataset.
 
 ## Queries
 
@@ -144,15 +148,15 @@ My SQL was used to perform business oriented analysis on the retail sales datase
 - ORDER BY
 - CASE
 - Aggregate Functions
-- Window Function
-- CTE
+- Window Functions
+- Common Table Expressions (CTE)
 - Views
 
 ---
 
-# Python And Exploratory Data Analysis
+# Python & Exploratory Data Analysis
 
-Python was used for data cleaning, feature engineering, exploratory analysis and visualisation
+Python was used for data cleaning, feature engineering, exploratory analysis and visualisation.
 
 - **Created Connection with MySQL Database**
 
@@ -214,8 +218,8 @@ Created:
 
 ---
 
-# Power Bi Analytics
-  An interactive Power Bi dashboard was created to analyze sales and customer performance.
+# Power BI Analytics
+  An interactive Power BI dashboard was created to analyze sales and customer performance.
 
 - **Dashboards**
     - Executive dashboard
@@ -239,18 +243,17 @@ Created:
     - Top Customers
 
 - **Intrective Features**
-  - Used;
 	- Slicers
     - Filters
     - DAX Measures
     - Drill-through
 
-**Power Bi Dashboard**
-![Power-Bi Dashboard](Images/Power_Bi_dashboard.png)
+**Power BI Dashboard**
+![Power-BI Dashboard](Images/Power_Bi_dashboard.png)
 
 # Tableau Analytics 
 
-A tableau dashboard was developed to provide interactive sales and customer insights.
+A Tableau dashboard was developed to provide interactive sales and customer insights.
 
 - **Dashboard Components**
     - KPI Cards
@@ -304,7 +307,7 @@ Predict the Total Amount using customer and transaction features.
 ---
 
 
-## Project- 2 Customer Spending Prediction
+## Project 2 - Customer Spending Prediction
 
 *Objective*
 
@@ -375,7 +378,7 @@ This project answers questions such as:
 - Does age influence spending?
 - Who are the repeat customers?
 - What is the average basket size?
-- Which customer segments spend the most?
+- Can customer be classified into spending categories?
 - Can sales be predicted using machine learning?
 - Can customers be classified into spending categories?
 
@@ -403,8 +406,10 @@ Through this project, I demonstrated practical knowledge of:
 # About Me
 
 **Maneesh Singh Samant**
-   - Aspiring Data Analyst
-   - **Skills:**  Excel | SQL | Python | Statistics | Power BI | Tableau | Machine Learning
+
+Aspiring Data Analyst
+
+**Skills:**  Excel | SQL | Python | Statistics | Power BI | Tableau | Machine Learning
 
 ---
 
