@@ -61,8 +61,8 @@ The Excel section focuses on data cleaning, analyzing, visualization, and dashbo
 ## Data Cleaning
 
 - Removed duplicate records
-- Handeled missing values
-- Updated numerical and amount colums
+- Handled missing values
+- Updated numerical and amount columns
 - Formatted date column
 
 ## Analysis
