@@ -4,7 +4,7 @@
 
 ## 📌 Project Overview
 
-This is an end-to-end Retail Sales Analytics project Using Excel, Statistics, SQL, Python, Power BI, Tableau and Machine Learning created as part of my Data Analyst portfolio.
+This is an end-to-end Retail Sales Analytics project using Excel, Statistics, SQL, Python, Power BI, Tableau and Machine Learning created as part of my Data Analyst portfolio.
 The project analyzes retail transaction data to understand sales performance, customer behavior, product performance, and customer spending patterns.
 
 ---
@@ -126,7 +126,7 @@ Statistical analysis was performed to understand the distribution and variation 
 
 My SQL was used to perform business oriented analysis on the retail sales dataset.
 
-## Quaries
+## Queries
 
 - Total Revenue
 - Total Orders
@@ -135,13 +135,13 @@ My SQL was used to perform business oriented analysis on the retail sales datase
 - Best Selling Category
 - Average Customer Age 
 
-## SQL Concepts Demostrated
+## SQL Concepts Demonstrated
 
 - SELECT
 - WHERE
 - HAVING
 - GROUP BY
-- ORDERBY
+- ORDER BY
 - CASE
 - Aggregate Functions
 - Window Function
@@ -162,7 +162,7 @@ Python was used for data cleaning, feature engineering, exploratory analysis and
 - NumPy
 - Matplotlib
 - Seaborn
-- ploty
+- Plotly
 - scikit-learn 
 
 ## Data Cleaning
@@ -203,19 +203,19 @@ Created:
     - Bar Chart
     - Histogram
     - Boxplot
-    - Vilonplot
-    - Linechart
+    - Vilon Plot
+    - Line Chart
     - Heatmap
     - Pairplot
-    - Corelation Matrix
+    - Correlation Matrix
 
 **Python EDA Preview**
  ![EDA Preview](Images/python_eda.png)
 
 ---
 
-# Power BI Analytics
-  An intrective Power Bi dashboard was created to analyze sales and customer performance.
+# Power Bi Analytics
+  An interactive Power Bi dashboard was created to analyze sales and customer performance.
 
 - **Dashboards**
     - Executive dashboard
@@ -240,13 +240,13 @@ Created:
 
 - **Intrective Features**
   - Used;
-	  - Slicers
+	- Slicers
     - Filters
     - DAX Measures
     - Drill-through
 
-**Power BI Dashboard**
-![Power-BI Dashboard](Images/Power_Bi_dashboard.png)
+**Power Bi Dashboard**
+![Power-Bi Dashboard](Images/Power_Bi_dashboard.png)
 
 # Tableau Analytics 
 
@@ -327,7 +327,7 @@ Classify customers into different spending categories.
     - F1 Score
     - Confusion Matrix
 
-**Model Comparision**
+**Model Comparison**
 
 ![ML_P2 View](Images/ML-Project-2.png)
 
