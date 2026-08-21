@@ -64,6 +64,7 @@ The objectives of this project are:
 - PowerBI
 - Tableau
 - Machine_Learning
+- Key Findings
 - README.md
 
 ---
@@ -106,7 +107,6 @@ Created Pivot Tables
 - Average Order Value
 - Average Customer Age
 - Best Selling Category
-
 
 ## Excel Dashboard Preview
 
@@ -351,6 +351,51 @@ Classify customers into different spending categories.
 
 ---
 
+# **Key Findings**
+
+## Sales Performance
+
+- Total revenue generated was **$463,570** across **1,000 transactions**.
+- A total of **2,560 units** were sold.
+- Average Order Value was **$463.57**.
+- Average customer age was approximately **41 years**.
+
+## Statistical Analysis
+
+- The large difference between the mean **463.57** and median **150**, along with the high standard deviation, indicates that the sales distribution is right-skewed, with some high-value transactions pulling the average upward.
+- Transaction values ranged from **$25 to $3,000**.
+- The IQR was **840**, showing substantial variation in transaction values.
+
+## Customer & Product Insights
+
+- Customer age did not show a strong relationship with purchase behavior in this dataset.
+- Price per unit showed a very strong positive relationship with total transaction value.
+- Quantity showed a moderate relationship with total transaction value.
+- Customer spending was analyzed by gender, age group, purchase frequency, and category.
+
+## Machine Learning — Sales Prediction
+
+- Random Forest performed significantly better than Linear Regression.
+- Random Forest achieved:
+  - **MAE: 1.50**
+  - **RMSE: 21.21**
+  - **R²: 0.9985**
+- Linear Regression achieved:
+  - **MAE: 174.97**
+  - **RMSE: 205.93**
+  - **R²: 0.8574**
+
+## Machine Learning — Customer Spending Classification
+
+- Decision Tree performed best among the three classification models.
+- Decision Tree achieved:
+  - **Accuracy: 53.0%**
+  - **Precision: 54.20%**
+  - **Recall: 53.0%**
+  - **F1 Score: 52.12%**
+- The moderate classification performance suggests that the selected features were not sufficient to predict spending categories with high accuracy.
+
+---
 # Project Workflow
 
 Retail Sales Data
@@ -374,23 +419,45 @@ Machine Learning
 Business Insights
 
 ---
-
-
 # Business Questions Answered
 
 This project answers questions such as:
 
 - What is the overall sales performance?
+	- The dataset contains 1,000 transactions and generated total sales of $463,570. A total of 2,560 units were sold, with an average order value of $463.57. The average customer age was approximately 41.16 years.
+
 - How does revenue change over time?
+	- May was the strongest month with $51295 revenue, while November was the weakest with $26895.
+
 - Which product category performs best?
+	- The SQL project also specifically calculates both the highest-revenue category and best-selling category by quantity. 
+Clothing is the best-performing category, generating $158,800 revenue and selling 918 units.
+An interesting additional finding is that Beauty has the highest average transaction value at approximately $479.85, even though it has the lowest total revenue of the three categories.
+
 - Which customers generate the highest revenue?
+	- CUST029 is the highest-value customer, spending $9650.
+
 - Are there differences in spending by gender?
+	- Female customers generated more total revenue and had a slightly higher average transaction value.
+
 - Does age influence spending?
+	- The Python analysis found that age did not have a meaningful relationship with purchase behavior.
+
 - Who are the repeat customers?
+	- 91 customers are repeat customers, with CUST113 having the highest purchase frequency at 16 transactions.
+
 - What is the average basket size?
+	- Customer purchase is around 2–3 units per transaction.
+
 - Can customer be classified into spending categories?
+	- SQL project created spending categories using a CASE statement
+
 - Can sales be predicted using machine learning?
+	- Yes, Random Forest significantly outperformed Linear Regression on the test data.
+The Random Forest achieved an R² of 0.9985, meaning it explained approximately 99.85% of the variance in the test-set target according to your evaluation.
+
 - Can customers be classified into spending categories?
+	- Customer spending categories can be classified, but the current features do not provide highly accurate predictions. Decision Tree performed best among the three models tested.
 
 --- 
 
@@ -409,7 +476,6 @@ Through this project, I demonstrated practical knowledge of:
   - Tableau
   - Machine Learning
   - Business Intelligence
-
 
 ---
 
