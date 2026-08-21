@@ -64,7 +64,6 @@ The objectives of this project are:
 - PowerBI
 - Tableau
 - Machine_Learning
-- Key Findings
 - README.md
 
 ---
